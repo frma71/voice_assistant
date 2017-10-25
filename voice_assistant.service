@@ -1,0 +1,10 @@
+Decription=My awesome assistant app
+
+[Service]
+ExecStart=/bin/bash -c '/home/voiceassistant/env/bin/python3 -u bin/voice_assistant.py'
+WorkingDirectory=/home/voiceassistant/env
+Restart=always
+User=voiceassistant
+
+[Install]
+WantedBy=multi-user.target

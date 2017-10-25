@@ -1,0 +1,2 @@
+google-assistant-library==0.0.3
+

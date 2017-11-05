@@ -1,2 +1,4 @@
-google-assistant-library==0.0.3
+google-assistant-library
+google-auth-oauthlib
+google-auth-oauthlib[tool]
 

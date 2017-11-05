@@ -100,6 +100,10 @@ lights = { "light.kitchenroof":
            [
                    re.compile(r'^(the )?(living room )?shelf( light(s)?)?$'),
            ],
+           "switch.livingroomfloor":
+           [
+                   re.compile(r'^(the )?(living room )?floor( light(s)?)?$'),
+           ],
            "group.window_lights":
            [
                    re.compile(r'^(the )?window light(s)?$'),

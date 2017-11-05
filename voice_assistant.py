@@ -80,7 +80,7 @@ lights = { "light.kitchenroof":
            [
                    re.compile(r'^(the )?(hallway|entrance)( roof)?( light(s)?)?$'),
            ],
-           "light.bedroom":
+           "light.bedroomroof":
            [
                    re.compile(r'^(the )?bedroom( roof)?( light(s)?)?$'),
            ],
